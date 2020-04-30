@@ -1,0 +1,272 @@
+m255
+K4
+z2
+!s11e vcom 2019.4 2019.10, Oct 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/simulation
+Ebinary_to_gray
+Z1 w1588202194
+Z2 DPx4 work 17 gray_code_package 0 22 Co1cCn@@=CUW`aQYRU6R93
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 -1
+R0
+Z5 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Binary_to_Gray.vhd
+Z6 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Binary_to_Gray.vhd
+l0
+L24
+VdigdWWPa[b6SU@DnE=bck3
+!s100 07>QYcDiIcbJSc4k9VIDC3
+Z7 OW;C;2019.4;69
+33
+Z8 !s110 1588213247
+!i10b 1
+Z9 !s108 1588213247.000000
+Z10 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Binary_to_Gray.vhd|
+Z11 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Binary_to_Gray.vhd|
+!i113 1
+Z12 o-2008 -explicit -work presynth -O0
+Z13 tCvgOpt 0
+Aarchitecture_binary_to_gray
+R2
+R3
+R4
+DEx4 work 14 binary_to_gray 0 22 digdWWPa[b6SU@DnE=bck3
+!i122 -1
+l35
+L33
+VG4SLa^F0CBTkC9jd1?[[A0
+!s100 XnA:9NOk0?T;]OQCX7j<U3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Egray_code_adder
+Z14 w1588210280
+R2
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R3
+R4
+!i122 -1
+R0
+Z16 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Adder.vhd
+Z17 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Adder.vhd
+l0
+L26
+V44P_NhK:2zT_CmmNKhb623
+!s100 H@Oj?ZdDH9T7JBlV]HVkM3
+R7
+33
+Z18 !s110 1588213218
+!i10b 1
+Z19 !s108 1588213218.000000
+Z20 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Adder.vhd|
+Z21 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Adder.vhd|
+!i113 1
+R12
+R13
+Aarchitecture_gray_code_adder
+R2
+R15
+R3
+R4
+DEx4 work 15 gray_code_adder 0 22 44P_NhK:2zT_CmmNKhb623
+!i122 -1
+l41
+L37
+VQb`]2dnOW^2AZfbG4BzFP3
+!s100 ^z]SODDG=A262^5h6Ja[K2
+R7
+33
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Egray_code_counter
+Z22 w1588202202
+R2
+R15
+R3
+R4
+!i122 -1
+R0
+Z23 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd
+Z24 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd
+l0
+L26
+VS[;YDZ`[8T>YVmEOJDPG_3
+!s100 ZoRP2kKW5DXBEoAKi^;d93
+R7
+33
+Z25 !s110 1588211496
+!i10b 1
+Z26 !s108 1588211496.000000
+Z27 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd|
+Z28 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd|
+!i113 1
+R12
+R13
+Aarchitecture_gray_code_counter
+R2
+R15
+R3
+R4
+DEx4 work 17 gray_code_counter 0 22 S[;YDZ`[8T>YVmEOJDPG_3
+!i122 -1
+l43
+L38
+V0CIA5;7f0P]8iU@[P:2U43
+!s100 CELN?0Jn;4dFZ2c^YWeUh0
+R7
+33
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R12
+R13
+Pgray_code_package
+R3
+R4
+!i122 -1
+Z29 w1588202176
+R0
+Z30 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd
+Z31 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd
+l0
+L24
+VCo1cCn@@=CUW`aQYRU6R93
+!s100 PK=89Z94J50e4A0NOjBG?2
+R7
+33
+b1
+Z32 !s110 1588213874
+!i10b 1
+Z33 !s108 1588213874.000000
+Z34 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd|
+Z35 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd|
+!i113 1
+R12
+R13
+Bbody
+R2
+R3
+R4
+!i122 -1
+l0
+L34
+V1SAiZbdbFIcJVE?X9;h@S0
+!s100 lcR5RhJ3zBGModY9<38;J2
+R7
+33
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R12
+R13
+Egray_to_binary
+Z36 w1588208346
+R2
+R3
+R4
+!i122 -1
+R0
+Z37 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd
+Z38 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd
+l0
+L24
+V2gnJZJgOiQFFTG1]FQPkI1
+!s100 hCMe:CQQzdDczmHU=aC1G2
+R7
+33
+R32
+!i10b 1
+R33
+Z39 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd|
+Z40 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd|
+!i113 1
+R12
+R13
+Aarchitecture_gray_to_binary
+R2
+R3
+R4
+DEx4 work 14 gray_to_binary 0 22 2gnJZJgOiQFFTG1]FQPkI1
+!i122 -1
+l35
+L33
+V7eO9hBIL@I;6PVWGZkoQO0
+!s100 LZoC4><K7zLgj]e6`F8:=3
+R7
+33
+R32
+!i10b 1
+R33
+R39
+R40
+!i113 1
+R12
+R13
+Etestbench
+Z41 w1588213869
+R15
+R3
+R4
+!i122 -1
+R0
+Z42 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd
+Z43 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd
+l0
+L33
+V`0N;Z76C36:E>InOAg03z2
+!s100 gH7g5ef2Ql[?GK=GPZ94l0
+R7
+33
+R32
+!i10b 1
+R33
+Z44 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd|
+Z45 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R15
+R3
+R4
+Z46 DEx4 work 9 testbench 0 22 `0N;Z76C36:E>InOAg03z2
+!i122 -1
+l146
+L36
+VioAzon[A0YV1Pn[Lkh;8g2
+!s100 Z:SMbG;2nSoV1WRG5;]];0
+R7
+33
+R32
+!i10b 1
+R33
+R44
+R45
+!i113 1
+R12
+R13

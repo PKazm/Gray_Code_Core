@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\synlog\COREFIFO_C0_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>COREFIFO_C0|RCLOCK</data>
+<data>100.0 MHz</data>
+<data>219.7 MHz</data>
+<data>5.449</data>
+</row>
+<row>
+<data>COREFIFO_C0|WCLOCK</data>
+<data>100.0 MHz</data>
+<data>219.7 MHz</data>
+<data>5.449</data>
+</row>
+</report_table>

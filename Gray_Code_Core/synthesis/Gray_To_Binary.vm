@@ -1,0 +1,108 @@
+//
+// Written by Synplify Pro 
+// Product Version "P-2019.03M-SP1-1"
+// Program "Synplify Pro", Mapper "mapact, Build 2737R"
+// Wed Apr 29 20:19:15 2020
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\std.vhd "
+// file 1 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd\snps_haps_pkg.vhd "
+// file 2 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\std1164.vhd "
+// file 3 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\std_textio.vhd "
+// file 4 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\numeric.vhd "
+// file 5 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd\umr_capim.vhd "
+// file 6 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\arith.vhd "
+// file 7 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\unsigned.vhd "
+// file 8 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd\hyperents.vhd "
+// file 9 "\e:\github_repos\gray_code_core\gray_code_core\hdl\gray_code_package.vhd "
+// file 10 "\e:\github_repos\gray_code_core\gray_code_core\hdl\gray_to_binary.vhd "
+// file 11 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\nlconst.dat "
+// file 12 "\e:\github_repos\gray_code_core\gray_code_core\designer\gray_to_binary\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module Gray_To_Binary (
+  CLK,
+  RSTn,
+  gray_in,
+  bin_out
+)
+;
+
+/*  Synopsys
+.origName=Gray_To_Binary
+.langParams="g_n_bits"
+g_n_bits=8
+ */
+input CLK ;
+input RSTn ;
+input [7:0] gray_in ;
+output [7:0] bin_out ;
+wire CLK ;
+wire RSTn ;
+wire GND ;
+wire VCC ;
+// @9:48
+  CFG4 \f_gray_to_binary.bin_val_0_a2[1]  (
+	.A(gray_in[2]),
+	.B(gray_in[3]),
+	.C(bin_out[4]),
+	.D(gray_in[1]),
+	.Y(bin_out[1])
+);
+defparam \f_gray_to_binary.bin_val_0_a2[1] .INIT=16'h6996;
+// @9:48
+  CFG3 \f_gray_to_binary.bin_val_0_a2[2]  (
+	.A(bin_out[4]),
+	.B(gray_in[3]),
+	.C(gray_in[2]),
+	.Y(bin_out[2])
+);
+defparam \f_gray_to_binary.bin_val_0_a2[2] .INIT=8'h96;
+// @9:48
+  CFG4 \f_gray_to_binary.bin_val_0_a2[4]  (
+	.A(gray_in[5]),
+	.B(gray_in[6]),
+	.C(gray_in[7]),
+	.D(gray_in[4]),
+	.Y(bin_out[4])
+);
+defparam \f_gray_to_binary.bin_val_0_a2[4] .INIT=16'h6996;
+// @9:48
+  CFG3 \f_gray_to_binary.bin_val_i_o2[5]  (
+	.A(gray_in[7]),
+	.B(gray_in[6]),
+	.C(gray_in[5]),
+	.Y(bin_out[5])
+);
+defparam \f_gray_to_binary.bin_val_i_o2[5] .INIT=8'h96;
+// @9:48
+  CFG2 \f_gray_to_binary.bin_val_i_o2[6]  (
+	.A(gray_in[7]),
+	.B(gray_in[6]),
+	.Y(bin_out[6])
+);
+defparam \f_gray_to_binary.bin_val_i_o2[6] .INIT=4'h6;
+// @9:48
+  CFG2 \f_gray_to_binary.bin_val_0_a2[3]  (
+	.A(bin_out[4]),
+	.B(gray_in[3]),
+	.Y(bin_out[3])
+);
+defparam \f_gray_to_binary.bin_val_0_a2[3] .INIT=4'h6;
+// @9:48
+  CFG2 \f_gray_to_binary.bin_val_0_a2[0]  (
+	.A(bin_out[1]),
+	.B(gray_in[0]),
+	.Y(bin_out[0])
+);
+defparam \f_gray_to_binary.bin_val_0_a2[0] .INIT=4'h6;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+assign bin_out[7] = gray_in[7];
+endmodule /* Gray_To_Binary */
+

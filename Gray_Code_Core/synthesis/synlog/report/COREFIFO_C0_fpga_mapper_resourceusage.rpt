@@ -1,0 +1,32 @@
+Resource Usage Report for COREFIFO_C0 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          4 uses
+CFG1           3 uses
+CFG2           36 uses
+CFG3           9 uses
+CFG4           21 uses
+
+Carry cells:
+ARI1            71 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            160 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+Global Clock Buffers: 4
+
+Total LUTs:    140
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  160 + 0 + 36 + 0 = 196;
+Total number of LUTs after P&R:  140 + 0 + 36 + 0 = 176;
+

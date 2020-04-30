@@ -1,0 +1,808 @@
+#Build: Synplify Pro (R) P-2019.03M-SP1-1, Build 266R, Dec  6 2019
+#install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: PHOENIX136DESKY
+
+# Wed Apr 29 17:44:08 2020
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp2019q2p1, Build 273R, Built Dec 16 2019 13:19:32
+
+@N|Running in 64-bit mode
+@N:"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0.vhd":19:7:19:17|Top entity is set to COREFIFO_C0.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0.vhd":19:7:19:17|Synthesizing work.corefifo_c0.rtl.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:40|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo.translated.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":430:10:430:18|Signal reg_valid is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":431:10:431:15|Signal reg_rd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":434:10:434:22|Signal fwft_memraddr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":435:10:435:16|Signal pf_dvld is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":436:10:436:20|Signal pf_memraddr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":440:10:440:13|Signal pf_q is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":443:10:443:15|Signal fwft_q is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":460:10:460:17|Signal xhdl_122 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":464:10:464:15|Signal empty2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":465:10:465:16|Signal aempty2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":474:10:474:26|Signal dvld_xhdl10_scntr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":475:10:475:25|Signal dvld_xhdl10_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":477:10:477:18|Signal fwft_dvld is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":486:10:486:23|Signal int_memrd_sig1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":487:10:487:23|Signal int_memrd_sig2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":500:10:500:23|Signal ext_memrd_sig2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:18|Signal rdata_int is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":530:10:530:18|Signal neg_reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":534:10:534:19|Signal fifo_rd_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":535:10:535:23|Signal fwft_reg_valid is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":554:10:554:26|Signal temp_a_sb_correct is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":555:10:555:26|Signal temp_b_sb_correct is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":556:10:556:25|Signal temp_a_db_detect is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":557:10:557:25|Signal temp_b_db_detect is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":560:10:560:25|Signal sb_correct_xhdl1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":561:10:561:25|Signal sb_correct_xhdl2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":562:10:562:24|Signal db_detect_xhdl1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":563:10:563:24|Signal db_detect_xhdl2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":564:10:564:18|Signal reset_reg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":565:10:565:19|Signal reset_reg1 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:46|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_async.translated.
+@W: CD434 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":727:33:727:46|Signal wptr_bin_sync2 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD364 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":895:14:895:20|Removing redundant assignment.
+@N: CD364 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":934:12:934:18|Removing redundant assignment.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":182:10:182:26|Signal almostemptyi_fwft is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":185:10:185:20|Signal temp_xhdl15 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":190:10:190:20|Signal temp_xhdl20 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":193:10:193:24|Signal temp_xhdl22_top is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":194:10:194:17|Signal re_top_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":212:10:212:18|Signal neg_reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":227:10:227:16|Signal aresetn is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:54|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_graytobinconv.translated.
+@W: CD434 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":73:36:73:36|Signal i in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":59:10:59:10|Signal i is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_graytobinconv.translated
+Running optimization stage 1 on COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv .......
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_NstagesSync.vhd":31:7:31:52|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_nstagessync.translated.
+Post processing for corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_nstagessync.translated
+Running optimization stage 1 on COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync .......
+Post processing for corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_async.translated
+Running optimization stage 1 on COREFIFO_C0_COREFIFO_C0_0_corefifo_async .......
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":194:10:194:17|Signal re_top_p is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":182:10:182:26|Signal almostemptyi_fwft is floating; a simulation mismatch is possible.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|Pruning unused register aempty_r_fwft_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|Pruning unused register empty_r_fwft_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":836:6:836:7|Pruning unused register rptr_gray_fwft_2(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":836:6:836:7|Pruning unused register rptr_fwft_2(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":767:6:767:7|Pruning unused register we_p_r_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":767:6:767:7|Pruning unused register full_reg_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":754:6:754:7|Pruning unused register empty_reg_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":754:6:754:7|Pruning unused register dvld_r2_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":743:6:743:7|Pruning unused register re_p_d1_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":695:6:695:7|Pruning unused register rptr_bin_sync2_fwft_2(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL168 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":682:3:682:23|Removing instance Rd_grayToBinConv_fwft because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":667:3:667:21|Removing instance Rd_NstagesSync_fwft because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wack_r are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to overflow_r are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to underflow_r are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to dvld_r are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|All reachable assignments to wrcnt_r(12) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|All reachable assignments to rdcnt_r(12) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_resetSync.vhd":32:7:32:50|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_resetsync.translated.
+Post processing for corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_resetsync.translated
+Running optimization stage 1 on COREFIFO_C0_COREFIFO_C0_0_corefifo_resetSync .......
+Post processing for corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo.translated
+Running optimization stage 1 on COREFIFO_C0_COREFIFO_C0_0_COREFIFO .......
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":562:10:562:24|Signal DB_DETECT_xhdl1 is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":560:10:560:25|Signal SB_CORRECT_xhdl1 is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":557:10:557:25|Signal temp_B_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":556:10:556:25|Signal temp_A_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":555:10:555:26|Signal temp_B_SB_CORRECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":554:10:554:26|Signal temp_A_SB_CORRECT is floating; a simulation mismatch is possible.
+@W: CL252 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:18|Bit 0 of signal RDATA_int is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:18|Bit 1 of signal RDATA_int is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:18|Bit 2 of signal RDATA_int is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:18|Bit 3 of signal RDATA_int is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:18|Bit 4 of signal RDATA_int is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:18|Bit 5 of signal RDATA_int is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:18|Bit 6 of signal RDATA_int is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:18|Bit 7 of signal RDATA_int is floating -- simulation mismatch possible.
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":475:10:475:25|Signal DVLD_xhdl10_sync is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":474:10:474:26|Signal DVLD_xhdl10_scntr is floating; a simulation mismatch is possible.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1312:6:1312:7|Pruning unused register RDATA_ext_r1_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1224:6:1224:7|Pruning unused register re_pulse_d3_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1224:6:1224:7|Pruning unused register re_pulse_d2_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1224:6:1224:7|Pruning unused register RE_d3_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1224:6:1224:7|Pruning unused register RE_d2_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1224:6:1224:7|Pruning unused register REN_d3_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1224:6:1224:7|Pruning unused register REN_d2_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1211:6:1211:7|Pruning unused register fwft_Q_r_1(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1196:6:1196:7|Pruning unused register RDATA_r2_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1182:6:1182:7|Pruning unused register RDATA_r1_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1169:6:1169:7|Pruning unused register RDATA_r_pre_3(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1156:6:1156:7|Pruning unused register RDATA_r_4(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1127:6:1127:7|Pruning unused register AEMPTY1_r1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":1127:6:1127:7|Pruning unused register AEMPTY1_r_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":725:6:725:7|Pruning unused register DVLD_scntr_ecc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":725:6:725:7|Pruning unused register DVLD_sync_ecc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":725:6:725:7|Pruning unused register DVLD_async_ecc_3. Make sure that there are no unused intermediate registers.
+Post processing for work.corefifo_c0.rtl
+Running optimization stage 1 on COREFIFO_C0 .......
+Running optimization stage 2 on COREFIFO_C0_COREFIFO_C0_0_corefifo_resetSync .......
+Running optimization stage 2 on COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync .......
+Running optimization stage 2 on COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv .......
+Running optimization stage 2 on COREFIFO_C0_COREFIFO_C0_0_corefifo_async .......
+@N: CL159 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":83:6:83:11|Input re_top is unused.
+Running optimization stage 2 on COREFIFO_C0_COREFIFO_C0_0_COREFIFO .......
+@N: CL159 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":76:6:76:8|Input CLK is unused.
+Running optimization stage 2 on COREFIFO_C0 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 99MB peak: 99MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Wed Apr 29 17:44:11 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 86MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 29 17:44:11 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\synwork\COREFIFO_C0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 24MB peak: 25MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Wed Apr 29 17:44:11 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 29 17:44:12 2020
+
+###########################################################]
+Premap Report
+
+# Wed Apr 29 17:44:13 2020
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 2737R, Built Jan 20 2020 09:12:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+Reading constraint file: E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\designer\COREFIFO_C0\synthesis.fdc
+@L: E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\COREFIFO_C0_scck.rpt 
+Printing clock  summary report in "E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\COREFIFO_C0_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 127MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 127MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 127MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 128MB)
+
+@N: BN362 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo.vhd":1224:6:1224:7|Removing sequential instance re_pulse_d1 (in view: corefifo_lib.COREFIFO_C0_COREFIFO_C0_0_COREFIFO(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo.vhd":1224:6:1224:7|Removing sequential instance RE_d1 (in view: corefifo_lib.COREFIFO_C0_COREFIFO_C0_0_COREFIFO(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|Removing sequential instance afull_r (in view: corefifo_lib.COREFIFO_C0_COREFIFO_C0_0_corefifo_async(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo.vhd":1141:6:1141:7|Removing sequential instance re_set (in view: corefifo_lib.COREFIFO_C0_COREFIFO_C0_0_COREFIFO(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo.vhd":1224:6:1224:7|Removing sequential instance REN_d1 (in view: corefifo_lib.COREFIFO_C0_COREFIFO_C0_0_COREFIFO(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist COREFIFO_C0 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 160MB peak: 160MB)
+
+
+
+Clock Summary
+******************
+
+          Start                  Requested     Requested     Clock        Clock                   Clock
+Level     Clock                  Frequency     Period        Type         Group                   Load 
+-------------------------------------------------------------------------------------------------------
+0 -       COREFIFO_C0|RCLOCK     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     81   
+                                                                                                       
+0 -       COREFIFO_C0|WCLOCK     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     80   
+=======================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                       Clock     Source           Clock Pin                                                      Non-clock Pin     Non-clock Pin
+Clock                  Load      Pin              Seq Example                                                    Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------------------------------------------------------
+COREFIFO_C0|RCLOCK     81        RCLOCK(port)     COREFIFO_C0_0.L31\.U_corefifo_async.wptr_bin_sync2[12:0].C     -                 -            
+                                                                                                                                                
+COREFIFO_C0|WCLOCK     80        WCLOCK(port)     COREFIFO_C0_0.L31\.U_corefifo_async.rptr_bin_sync2[12:0].C     -                 -            
+================================================================================================================================================
+
+@W: MT530 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo_resetsync.vhd":69:4:69:5|Found inferred clock COREFIFO_C0|RCLOCK which controls 81 sequential elements including COREFIFO_C0_0.R1\.r_corefifo_resetSync.shift_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo_resetsync.vhd":69:4:69:5|Found inferred clock COREFIFO_C0|WCLOCK which controls 80 sequential elements including COREFIFO_C0_0.R1\.w_corefifo_resetSync.shift_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\COREFIFO_C0.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 161MB peak: 161MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 161MB peak: 162MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 162MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 80MB peak: 164MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 29 17:44:14 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Apr 29 17:44:15 2020
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2737R, Built Jan 20 2020 09:12:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 127MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 127MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 127MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 127MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 157MB peak: 157MB)
+
+@N: BN362 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo_async.vhd":857:6:857:7|Removing sequential instance aempty_r (in view: corefifo_lib.COREFIFO_C0_COREFIFO_C0_0_corefifo_async(translated)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+@N: MO231 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo_async.vhd":818:6:818:7|Found counter in view:corefifo_lib.COREFIFO_C0_COREFIFO_C0_0_corefifo_async(translated) instance rptr[12:0] 
+@N: MO231 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo_async.vhd":797:6:797:7|Found counter in view:corefifo_lib.COREFIFO_C0_COREFIFO_C0_0_corefifo_async(translated) instance wptr[12:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 164MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 164MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 164MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     1.11ns		 151 /       160
+   2		0h:00m:02s		     1.11ns		 151 /       160
+@N: FP130 |Promoting Net RCLOCK on CLKINT  I_88 
+@N: FP130 |Promoting Net WCLOCK on CLKINT  I_89 
+@N: FP130 |Promoting Net COREFIFO_C0_0.R1\.r_corefifo_resetSync.shift_reg[1] on CLKINT  I_90 
+@N: FP130 |Promoting Net COREFIFO_C0_0.R1\.w_corefifo_resetSync.shift_reg[1] on CLKINT  I_91 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 164MB peak: 165MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 164MB peak: 165MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 160 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+========================================== Non-Gated/Non-Generated Clocks ==========================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                             
+--------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       WCLOCK              port                   80         COREFIFO_C0_0.L31\.U_corefifo_async.wptr[12]
+@K:CKID0002       RCLOCK              port                   80         COREFIFO_C0_0.L31\.U_corefifo_async.rptr[12]
+====================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 137MB peak: 165MB)
+
+Writing Analyst data base E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\synwork\COREFIFO_C0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 164MB peak: 165MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 165MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 164MB peak: 165MB)
+
+@W: MT420 |Found inferred clock COREFIFO_C0|RCLOCK with period 10.00ns. Please declare a user-defined clock on port RCLOCK.
+@W: MT420 |Found inferred clock COREFIFO_C0|WCLOCK with period 10.00ns. Please declare a user-defined clock on port WCLOCK.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Apr 29 17:44:18 2020
+#
+
+
+Top view:               COREFIFO_C0
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\designer\COREFIFO_C0\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 5.769
+
+                       Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock         Frequency     Frequency     Period        Period        Slack     Type         Group              
+-------------------------------------------------------------------------------------------------------------------------
+COREFIFO_C0|RCLOCK     100.0 MHz     236.4 MHz     10.000        4.231         5.769     inferred     Inferred_clkgroup_0
+COREFIFO_C0|WCLOCK     100.0 MHz     251.1 MHz     10.000        3.983         6.017     inferred     Inferred_clkgroup_1
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------
+COREFIFO_C0|RCLOCK  COREFIFO_C0|RCLOCK  |  10.000      5.769  |  No paths    -      |  No paths    -      |  No paths    -    
+COREFIFO_C0|RCLOCK  COREFIFO_C0|WCLOCK  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+COREFIFO_C0|WCLOCK  COREFIFO_C0|RCLOCK  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+COREFIFO_C0|WCLOCK  COREFIFO_C0|WCLOCK  |  10.000      6.017  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: COREFIFO_C0|RCLOCK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                  Starting                                                       Arrival          
+Instance                                                                          Reference              Type     Pin     Net                    Time        Slack
+                                                                                  Clock                                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_array_1[12]     COREFIFO_C0|RCLOCK     SLE      Q       wptr_bin_sync[12]      0.108       5.769
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_array_1[11]     COREFIFO_C0|RCLOCK     SLE      Q       wptr_gray_sync[11]     0.108       5.774
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_array_1[8]      COREFIFO_C0|RCLOCK     SLE      Q       wptr_gray_sync[8]      0.108       5.986
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_array_1[7]      COREFIFO_C0|RCLOCK     SLE      Q       wptr_gray_sync[7]      0.108       6.170
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_array_1[10]     COREFIFO_C0|RCLOCK     SLE      Q       wptr_gray_sync[10]     0.108       6.212
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_array_1[9]      COREFIFO_C0|RCLOCK     SLE      Q       wptr_gray_sync[9]      0.108       6.396
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr[1]                                       COREFIFO_C0|RCLOCK     SLE      Q       rptr[1]                0.108       6.662
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr[2]                                       COREFIFO_C0|RCLOCK     SLE      Q       rptr[2]                0.108       6.676
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr[3]                                       COREFIFO_C0|RCLOCK     SLE      Q       rptr[3]                0.108       6.691
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr[4]                                       COREFIFO_C0|RCLOCK     SLE      Q       rptr[4]                0.108       6.706
+==================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                          Starting                                                     Required          
+Instance                                                  Reference              Type     Pin     Net                  Time         Slack
+                                                          Clock                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr_bin_sync2[0]     COREFIFO_C0|RCLOCK     SLE      D       wptr_bin_sync[0]     9.745        5.769
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr_bin_sync2[2]     COREFIFO_C0|RCLOCK     SLE      D       wptr_bin_sync[2]     9.745        6.182
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr_bin_sync2[3]     COREFIFO_C0|RCLOCK     SLE      D       wptr_bin_sync[3]     9.745        6.298
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr_bin_sync2[1]     COREFIFO_C0|RCLOCK     SLE      D       wptr_bin_sync[1]     9.745        6.430
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr_bin_sync2[4]     COREFIFO_C0|RCLOCK     SLE      D       wptr_bin_sync[4]     9.745        6.647
+COREFIFO_C0_0.L31\.U_corefifo_async.empty_r               COREFIFO_C0|RCLOCK     SLE      D       empty_r_4            9.745        6.662
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr_bin_sync2[6]     COREFIFO_C0|RCLOCK     SLE      D       wptr_bin_sync[6]     9.745        7.005
+COREFIFO_C0_0.L31\.U_corefifo_async.memraddr_r[8]         COREFIFO_C0|RCLOCK     SLE      D       memraddr_r_2[8]      9.745        7.151
+COREFIFO_C0_0.L31\.U_corefifo_async.memraddr_r[11]        COREFIFO_C0|RCLOCK     SLE      D       memraddr_r_2[11]     9.745        7.151
+COREFIFO_C0_0.L31\.U_corefifo_async.memraddr_r[0]         COREFIFO_C0|RCLOCK     SLE      EN      MEMRE                9.662        7.240
+=========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      3.976
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     5.769
+
+    Number of logic level(s):                4
+    Starting point:                          COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_array_1[12] / Q
+    Ending point:                            COREFIFO_C0_0.L31\.U_corefifo_async.wptr_bin_sync2[0] / D
+    The start point is clocked by            COREFIFO_C0|RCLOCK [rising] on pin CLK
+    The end   point is clocked by            COREFIFO_C0|RCLOCK [rising] on pin CLK
+
+Instance / Net                                                                                   Pin      Pin               Arrival     No. of    
+Name                                                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_array_1[12]           SLE      Q        Out     0.108     0.108       -         
+wptr_bin_sync[12]                                                                       Net      -        -       0.815     -           4         
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_grayToBinConv.g0_2_4_i_o2               CFG2     A        In      -         0.923       -         
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_grayToBinConv.g0_2_4_i_o2               CFG2     Y        Out     0.100     1.023       -         
+wptr_bin_sync[11]                                                                       Net      -        -       0.745     -           3         
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_grayToBinConv.g0_3_0_a2                 CFG4     C        In      -         1.768       -         
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_grayToBinConv.g0_3_0_a2                 CFG4     Y        Out     0.226     1.994       -         
+wptr_bin_sync[6]                                                                        Net      -        -       0.745     -           3         
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_grayToBinConv.g0_0_0_a2                 CFG4     D        In      -         2.740       -         
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_grayToBinConv.g0_0_0_a2                 CFG4     Y        Out     0.326     3.066       -         
+wptr_bin_sync[2]                                                                        Net      -        -       0.497     -           2         
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_grayToBinConv.bin_out_xhdl1_0_a2[0]     CFG3     B        In      -         3.563       -         
+COREFIFO_C0_0.L31\.U_corefifo_async.Wr_corefifo_grayToBinConv.bin_out_xhdl1_0_a2[0]     CFG3     Y        Out     0.165     3.727       -         
+wptr_bin_sync[0]                                                                        Net      -        -       0.248     -           1         
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr_bin_sync2[0]                                   SLE      D        In      -         3.976       -         
+==================================================================================================================================================
+Total path delay (propagation time + setup) of 4.231 is 1.180(27.9%) logic and 3.050(72.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: COREFIFO_C0|WCLOCK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                  Starting                                                       Arrival          
+Instance                                                                          Reference              Type     Pin     Net                    Time        Slack
+                                                                                  Clock                                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_NstagesSync.shift_array_1[12]     COREFIFO_C0|WCLOCK     SLE      Q       rptr_bin_sync[12]      0.108       6.017
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_NstagesSync.shift_array_1[11]     COREFIFO_C0|WCLOCK     SLE      Q       rptr_gray_sync[11]     0.108       6.022
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_NstagesSync.shift_array_1[8]      COREFIFO_C0|WCLOCK     SLE      Q       rptr_gray_sync[8]      0.108       6.234
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_NstagesSync.shift_array_1[10]     COREFIFO_C0|WCLOCK     SLE      Q       rptr_gray_sync[10]     0.108       6.374
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_NstagesSync.shift_array_1[7]      COREFIFO_C0|WCLOCK     SLE      Q       rptr_gray_sync[7]      0.108       6.419
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_NstagesSync.shift_array_1[9]      COREFIFO_C0|WCLOCK     SLE      Q       rptr_gray_sync[9]      0.108       6.645
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr[4]                                       COREFIFO_C0|WCLOCK     SLE      Q       wptr[4]                0.108       6.837
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr[1]                                       COREFIFO_C0|WCLOCK     SLE      Q       wptr[1]                0.108       6.856
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr[2]                                       COREFIFO_C0|WCLOCK     SLE      Q       wptr[2]                0.108       6.872
+COREFIFO_C0_0.L31\.U_corefifo_async.wptr[3]                                       COREFIFO_C0|WCLOCK     SLE      Q       wptr[3]                0.108       6.888
+==================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                          Starting                                                     Required          
+Instance                                                  Reference              Type     Pin     Net                  Time         Slack
+                                                          Clock                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr_bin_sync2[0]     COREFIFO_C0|WCLOCK     SLE      D       rptr_bin_sync[0]     9.745        6.017
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr_bin_sync2[1]     COREFIFO_C0|WCLOCK     SLE      D       rptr_bin_sync[1]     9.745        6.374
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr_bin_sync2[2]     COREFIFO_C0|WCLOCK     SLE      D       rptr_bin_sync[2]     9.745        6.430
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr_bin_sync2[4]     COREFIFO_C0|WCLOCK     SLE      D       rptr_bin_sync[4]     9.745        6.500
+COREFIFO_C0_0.L31\.U_corefifo_async.full_r                COREFIFO_C0|WCLOCK     SLE      D       fulli                9.745        6.837
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr_bin_sync2[5]     COREFIFO_C0|WCLOCK     SLE      D       rptr_bin_sync[5]     9.745        6.848
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr_bin_sync2[3]     COREFIFO_C0|WCLOCK     SLE      D       rptr_bin_sync[3]     9.745        6.996
+COREFIFO_C0_0.L31\.U_corefifo_async.memwaddr_r[8]         COREFIFO_C0|WCLOCK     SLE      D       memwaddr_r_2[8]      9.745        7.151
+COREFIFO_C0_0.L31\.U_corefifo_async.memwaddr_r[11]        COREFIFO_C0|WCLOCK     SLE      D       memwaddr_r_2[11]     9.745        7.151
+COREFIFO_C0_0.L31\.U_corefifo_async.memwaddr_r[0]         COREFIFO_C0|WCLOCK     SLE      EN      MEMWE                9.662        7.240
+=========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      3.727
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.017
+
+    Number of logic level(s):                4
+    Starting point:                          COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_NstagesSync.shift_array_1[12] / Q
+    Ending point:                            COREFIFO_C0_0.L31\.U_corefifo_async.rptr_bin_sync2[0] / D
+    The start point is clocked by            COREFIFO_C0|WCLOCK [rising] on pin CLK
+    The end   point is clocked by            COREFIFO_C0|WCLOCK [rising] on pin CLK
+
+Instance / Net                                                                                   Pin      Pin               Arrival     No. of    
+Name                                                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_NstagesSync.shift_array_1[12]           SLE      Q        Out     0.108     0.108       -         
+rptr_bin_sync[12]                                                                       Net      -        -       0.815     -           4         
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_grayToBinConv.g0_1_5_i_o2               CFG2     A        In      -         0.923       -         
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_grayToBinConv.g0_1_5_i_o2               CFG2     Y        Out     0.100     1.023       -         
+rptr_bin_sync[11]                                                                       Net      -        -       0.745     -           3         
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_grayToBinConv.g0_3_0_a2                 CFG4     C        In      -         1.768       -         
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_grayToBinConv.g0_3_0_a2                 CFG4     Y        Out     0.226     1.994       -         
+rptr_bin_sync[6]                                                                        Net      -        -       0.497     -           2         
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_grayToBinConv.g0_0_0_a2                 CFG4     D        In      -         2.491       -         
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_grayToBinConv.g0_0_0_a2                 CFG4     Y        Out     0.326     2.817       -         
+rptr_bin_sync[2]                                                                        Net      -        -       0.497     -           2         
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_grayToBinConv.bin_out_xhdl1_0_a2[0]     CFG3     B        In      -         3.314       -         
+COREFIFO_C0_0.L31\.U_corefifo_async.Rd_corefifo_grayToBinConv.bin_out_xhdl1_0_a2[0]     CFG3     Y        Out     0.165     3.479       -         
+rptr_bin_sync[0]                                                                        Net      -        -       0.248     -           1         
+COREFIFO_C0_0.L31\.U_corefifo_async.rptr_bin_sync2[0]                                   SLE      D        In      -         3.727       -         
+==================================================================================================================================================
+Total path delay (propagation time + setup) of 3.983 is 1.180(29.6%) logic and 2.802(70.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 165MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 166MB)
+
+---------------------------------------
+Resource Usage Report for COREFIFO_C0 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          4 uses
+CFG1           2 uses
+CFG2           41 uses
+CFG3           4 uses
+CFG4           32 uses
+
+Carry cells:
+ARI1            78 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            160 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+Global Clock Buffers: 4
+
+Total LUTs:    157
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  160 + 0 + 0 + 0 = 160;
+Total number of LUTs after P&R:  157 + 0 + 0 + 0 = 157;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 58MB peak: 166MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+# Wed Apr 29 17:44:19 2020
+
+###########################################################]

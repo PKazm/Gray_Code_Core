@@ -1,0 +1,2 @@
+@W: CL169 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\hdl\Gray_To_Binary.vhd":43:8:43:9|Pruning unused register i_buf_3(7 downto 0). Make sure that there are no unused intermediate registers.
+

@@ -1,0 +1,10 @@
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\hdl\Gray_Code_Counter.vhd":26:7:26:23|Synthesizing work.gray_code_counter.architecture_gray_code_counter.
+Post processing for work.gray_code_counter.architecture_gray_code_counter
+Running optimization stage 1 on Gray_Code_Counter .......
+Running optimization stage 2 on Gray_Code_Counter .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\synwork\layer0.rt.csv
+

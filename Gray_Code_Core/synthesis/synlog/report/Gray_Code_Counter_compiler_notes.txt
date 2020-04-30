@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\hdl\Gray_Code_Counter.vhd":26:7:26:23|Top entity is set to Gray_Code_Counter.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\hdl\Gray_Code_Counter.vhd":26:7:26:23|Synthesizing work.gray_code_counter.architecture_gray_code_counter.
+@N|Running in 64-bit mode
+

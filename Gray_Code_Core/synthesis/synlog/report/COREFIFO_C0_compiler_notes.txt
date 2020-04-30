@@ -1,0 +1,23 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0.vhd":19:7:19:17|Top entity is set to COREFIFO_C0.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0.vhd":19:7:19:17|Synthesizing work.corefifo_c0.rtl.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:40|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo.translated.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO_C0_COREFIFO_C0_0_ram_wrapper.vhd":8:7:8:43|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_ram_wrapper.generated.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO_C0_COREFIFO_C0_0_LSRAM_top.vhd":8:7:8:41|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_lsram_top.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:46|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_async.translated.
+@N: CD364 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":895:14:895:20|Removing redundant assignment.
+@N: CD364 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":934:12:934:18|Removing redundant assignment.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:54|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_graytobinconv.translated.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_NstagesSync.vhd":31:7:31:52|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_nstagessync.translated.
+@N: CD630 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_resetSync.vhd":32:7:32:50|Synthesizing corefifo_lib.corefifo_c0_corefifo_c0_0_corefifo_resetsync.translated.
+@N: CL159 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\corefifo_async.vhd":83:6:83:11|Input re_top is unused.
+@N: CL159 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO_C0_COREFIFO_C0_0_ram_wrapper.vhd":23:4:23:10|Input RESET_N is unused.
+@N: CL159 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO_C0_COREFIFO_C0_0_ram_wrapper.vhd":24:4:24:8|Input CLOCK is unused.
+@N: CL159 :"E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vhdl\core\COREFIFO.vhd":110:6:110:10|Input MEMRD is unused.
+@N|Running in 64-bit mode
+

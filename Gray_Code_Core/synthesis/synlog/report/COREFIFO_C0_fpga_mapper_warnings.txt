@@ -1,0 +1,2 @@
+@W: MT420 |Found inferred clock COREFIFO_C0|RCLOCK with period 10.00ns. Please declare a user-defined clock on port RCLOCK.
+@W: MT420 |Found inferred clock COREFIFO_C0|WCLOCK with period 10.00ns. Please declare a user-defined clock on port WCLOCK.
