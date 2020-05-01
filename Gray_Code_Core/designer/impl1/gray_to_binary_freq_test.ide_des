@@ -1,0 +1,9 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\designer\impl1\gray_to_binary_freq_test.adb"
+LIST SOURCE_FILES
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\gray_to_binary_freq_test_vm.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

@@ -1,0 +1,138 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+
+# Written on Thu Apr 30 00:12:42 2020
+
+##### DESIGN INFO #######################################################
+
+Top View:                "gray_to_binary_freq_test"
+Constraint File(s):      "E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\designer\gray_to_binary_freq_test\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                         Ending                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+gray_to_binary_freq_test|CLK     gray_to_binary_freq_test|CLK     |     16.767           |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:RSTn
+p:bin_out[0]
+p:bin_out[1]
+p:bin_out[2]
+p:bin_out[3]
+p:bin_out[4]
+p:bin_out[5]
+p:bin_out[6]
+p:bin_out[7]
+p:bin_out[8]
+p:bin_out[9]
+p:bin_out[10]
+p:bin_out[11]
+p:bin_out[12]
+p:bin_out[13]
+p:bin_out[14]
+p:bin_out[15]
+p:bin_out[16]
+p:bin_out[17]
+p:bin_out[18]
+p:bin_out[19]
+p:bin_out[20]
+p:bin_out[21]
+p:bin_out[22]
+p:bin_out[23]
+p:bin_out[24]
+p:bin_out[25]
+p:bin_out[26]
+p:bin_out[27]
+p:bin_out[28]
+p:bin_out[29]
+p:bin_out[30]
+p:bin_out[31]
+p:gray_in[0]
+p:gray_in[1]
+p:gray_in[2]
+p:gray_in[3]
+p:gray_in[4]
+p:gray_in[5]
+p:gray_in[6]
+p:gray_in[7]
+p:gray_in[8]
+p:gray_in[9]
+p:gray_in[10]
+p:gray_in[11]
+p:gray_in[12]
+p:gray_in[13]
+p:gray_in[14]
+p:gray_in[15]
+p:gray_in[16]
+p:gray_in[17]
+p:gray_in[18]
+p:gray_in[19]
+p:gray_in[20]
+p:gray_in[21]
+p:gray_in[22]
+p:gray_in[23]
+p:gray_in[24]
+p:gray_in[25]
+p:gray_in[26]
+p:gray_in[27]
+p:gray_in[28]
+p:gray_in[29]
+p:gray_in[30]
+p:gray_in[31]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

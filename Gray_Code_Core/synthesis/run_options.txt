@@ -1,13 +1,13 @@
 #--  Synopsys, Inc.
 #--  Version P-2019.03M-SP1-1
 #--  Project file E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\run_options.txt
-#--  Written on Wed Apr 29 22:32:25 2020
+#--  Written on Thu Apr 30 00:13:19 2020
 
 
 #project files
 add_file -vhdl -lib work "E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd"
-add_file -vhdl -lib work "E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd"
-add_file -fpga_constraint "E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/designer/Gray_Code_Counter/synthesis.fdc"
+add_file -vhdl -lib work "E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/gray_to_binary_freq_test.vhd"
+add_file -fpga_constraint "E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/designer/gray_to_binary_freq_test/synthesis.fdc"
 
 
 
@@ -23,14 +23,14 @@ set_option -part_companion ""
 
 #compilation/mapping options
 set_option -use_fsm_explorer 0
-set_option -top_module "work.Gray_Code_Counter"
+set_option -top_module "work.gray_to_binary_freq_test"
 
 # hdl_compiler_options
 set_option -distributed_compile 0
 set_option -hdl_strict_syntax 0
 
 # mapper_without_write_options
-set_option -frequency 100.000
+set_option -frequency auto
 set_option -srs_instrumentation 1
 
 # mapper_options
@@ -80,5 +80,5 @@ set_option -vhdl2008 1
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "./Gray_Code_Counter.vm"
+project -result_file "./gray_to_binary_freq_test.vm"
 impl -active "synthesis"

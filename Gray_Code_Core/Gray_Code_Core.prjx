@@ -55,6 +55,11 @@ STATE="utd"
 TIME="1588214853"
 SIZE="312"
 ENDFILE
+VALUE "<project>\designer\impl1\gray_to_binary_freq_test.ide_des,ide_des"
+STATE="utd"
+TIME="1588361278"
+SIZE="326"
+ENDFILE
 VALUE "<project>\hdl\Binary_to_Gray.vhd,hdl"
 STATE="utd"
 TIME="1588202194"
@@ -67,8 +72,8 @@ SIZE="1326"
 ENDFILE
 VALUE "<project>\hdl\Gray_Code_Counter.vhd,hdl"
 STATE="utd"
-TIME="1588202202"
-SIZE="1570"
+TIME="1588361934"
+SIZE="1998"
 ENDFILE
 VALUE "<project>\hdl\Gray_Code_package.vhd,hdl"
 STATE="utd"
@@ -79,6 +84,11 @@ VALUE "<project>\hdl\Gray_To_Binary.vhd,hdl"
 STATE="utd"
 TIME="1588208346"
 SIZE="1012"
+ENDFILE
+VALUE "<project>\hdl\gray_to_binary_freq_test.vhd,hdl"
+STATE="utd"
+TIME="1588219935"
+SIZE="1448"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
@@ -92,13 +102,18 @@ SIZE="233"
 ENDFILE
 VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
 STATE="utd"
-TIME="1588213875"
-SIZE="4125"
+TIME="1588362861"
+SIZE="5409"
 ENDFILE
 VALUE "<project>\stimulus\Gray_Code_tb.vhd,tb_hdl"
 STATE="utd"
-TIME="1588213869"
-SIZE="10159"
+TIME="1588362950"
+SIZE="11257"
+ENDFILE
+VALUE "<project>\synthesis\AutoConstraint_gray_to_binary_freq_test.sdc,sdc"
+STATE="utd"
+TIME="1588219965"
+SIZE="220"
 ENDFILE
 VALUE "<project>\synthesis\COREFIFO_C0.so,so"
 STATE="utd"
@@ -144,6 +159,26 @@ VALUE "<project>\synthesis\Gray_To_Binary.vm,syn_vm"
 STATE="ood"
 TIME="1588205955"
 SIZE="3040"
+ENDFILE
+VALUE "<project>\synthesis\gray_to_binary_freq_test.so,so"
+STATE="utd"
+TIME="1588219967"
+SIZE="268"
+ENDFILE
+VALUE "<project>\synthesis\gray_to_binary_freq_test.vm,syn_vm"
+STATE="utd"
+TIME="1588219966"
+SIZE="28647"
+ENDFILE
+VALUE "<project>\synthesis\gray_to_binary_freq_test_syn.prj,prj"
+STATE="utd"
+TIME="1588219990"
+SIZE="2076"
+ENDFILE
+VALUE "<project>\synthesis\gray_to_binary_freq_test_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1588219966"
+SIZE="908"
 ENDFILE
 VALUE "<project>\synthesis\Gray_To_Binary_syn.prj,prj"
 STATE="utd"
@@ -203,7 +238,6 @@ ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\Gray_Code_Counter.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -222,6 +256,21 @@ ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "gray_to_binary_freq_test::work"
+FILE "<project>\hdl\gray_to_binary_freq_test.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\gray_to_binary_freq_test.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -368,7 +417,6 @@ ENDLIST
 LIST "Gray_Code_Counter::work"
 LIST Impl1
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\Gray_Code_Counter.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -381,6 +429,18 @@ ENDLIST
 LIST "Gray_to_Binary::work"
 LIST Impl1
 ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "gray_to_binary_freq_test::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\gray_to_binary_freq_test.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -404,11 +464,14 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Synthesize:synplify.log
+ReportsCurrentItem;Pre-Synthesis Simulate:testbench_presynth_simulation.log
 HDL;hdl\Gray_To_Binary.vhd;0
+HDL;hdl\gray_to_binary_freq_test.vhd;0
 StartPage;StartPage;0
+HDL;stimulus\Gray_Code_tb.vhd;0
+HDL;hdl\Gray_Code_Counter.vhd;0
 SmartDesign;test_sd;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;stimulus\Gray_Code_tb.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Binary_to_Gray::work","hdl\Binary_to_Gray.vhd","FALSE","FALSE"
@@ -420,6 +483,8 @@ ENDLIST
 LIST "Gray_Code_package::work","hdl\Gray_Code_package.vhd","FALSE","FALSE"
 ENDLIST
 LIST "Gray_to_Binary::work","hdl\Gray_To_Binary.vhd","FALSE","FALSE"
+ENDLIST
+LIST "gray_to_binary_freq_test::work","hdl\gray_to_binary_freq_test.vhd","FALSE","FALSE"
 ENDLIST
 LIST "test_sd::work","component\work\test_sd\test_sd.cxf","TRUE","FALSE"
 ENDLIST
@@ -445,6 +510,7 @@ ENDLIST
 LIST FPTabList
 ENDLIST
 LIST TimingTabList
+VALUE "synthesis\AutoConstraint_gray_to_binary_freq_test.sdc"
 ENDLIST
 LIST FDCTabList
 ENDLIST

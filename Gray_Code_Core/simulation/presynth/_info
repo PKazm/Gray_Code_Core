@@ -98,47 +98,49 @@ R21
 R12
 R13
 Egray_code_counter
-Z22 w1588202202
+Z22 w1588361934
 R2
+Z23 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 R15
 R3
 R4
 !i122 -1
 R0
-Z23 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd
-Z24 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd
+Z24 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd
+Z25 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd
 l0
-L26
-VS[;YDZ`[8T>YVmEOJDPG_3
-!s100 ZoRP2kKW5DXBEoAKi^;d93
+L27
+VB6ESoPbVP9_agW>lhhglS2
+!s100 JMlZS_?]I9h9Q_:ojKQY=0
 R7
 33
-Z25 !s110 1588211496
+Z26 !s110 1588362964
 !i10b 1
-Z26 !s108 1588211496.000000
-Z27 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd|
-Z28 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd|
+Z27 !s108 1588362964.000000
+Z28 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd|
+Z29 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd|
 !i113 1
 R12
 R13
 Aarchitecture_gray_code_counter
 R2
+R23
 R15
 R3
 R4
-DEx4 work 17 gray_code_counter 0 22 S[;YDZ`[8T>YVmEOJDPG_3
+DEx4 work 17 gray_code_counter 0 22 B6ESoPbVP9_agW>lhhglS2
 !i122 -1
-l43
-L38
-V0CIA5;7f0P]8iU@[P:2U43
-!s100 CELN?0Jn;4dFZ2c^YWeUh0
+l47
+L42
+V1ZAO_LNK]1GZ@6;6gZPV91
+!s100 1PHJ3Yb2DA=f2j`;P?9KX2
 R7
 33
-R25
-!i10b 1
 R26
+!i10b 1
 R27
 R28
+R29
 !i113 1
 R12
 R13
@@ -146,10 +148,10 @@ Pgray_code_package
 R3
 R4
 !i122 -1
-Z29 w1588202176
+Z30 w1588202176
 R0
-Z30 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd
-Z31 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd
+Z31 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd
+Z32 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd
 l0
 L24
 VCo1cCn@@=CUW`aQYRU6R93
@@ -157,11 +159,11 @@ VCo1cCn@@=CUW`aQYRU6R93
 R7
 33
 b1
-Z32 !s110 1588213874
+R26
 !i10b 1
-Z33 !s108 1588213874.000000
-Z34 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd|
-Z35 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd|
+R27
+Z33 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd|
+Z34 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd|
 !i113 1
 R12
 R13
@@ -176,34 +178,34 @@ V1SAiZbdbFIcJVE?X9;h@S0
 !s100 lcR5RhJ3zBGModY9<38;J2
 R7
 33
-R32
+R26
 !i10b 1
+R27
 R33
 R34
-R35
 !i113 1
 R12
 R13
 Egray_to_binary
-Z36 w1588208346
+Z35 w1588208346
 R2
 R3
 R4
 !i122 -1
 R0
-Z37 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd
-Z38 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd
+Z36 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd
+Z37 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd
 l0
 L24
 V2gnJZJgOiQFFTG1]FQPkI1
 !s100 hCMe:CQQzdDczmHU=aC1G2
 R7
 33
-R32
+Z38 !s110 1588213874
 !i10b 1
-R33
-Z39 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd|
-Z40 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd|
+Z39 !s108 1588213874.000000
+Z40 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd|
+Z41 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd|
 !i113 1
 R12
 R13
@@ -219,34 +221,34 @@ V7eO9hBIL@I;6PVWGZkoQO0
 !s100 LZoC4><K7zLgj]e6`F8:=3
 R7
 33
-R32
+R38
 !i10b 1
-R33
 R39
 R40
+R41
 !i113 1
 R12
 R13
 Etestbench
-Z41 w1588213869
+Z42 w1588362950
 R15
 R3
 R4
 !i122 -1
 R0
-Z42 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd
-Z43 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd
+Z43 8E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd
+Z44 FE:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd
 l0
 L33
 V`0N;Z76C36:E>InOAg03z2
 !s100 gH7g5ef2Ql[?GK=GPZ94l0
 R7
 33
-R32
+R26
 !i10b 1
-R33
-Z44 !s90 -2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd|
-Z45 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd|
+R27
+Z45 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd|
+Z46 !s107 E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd|
 !i113 1
 R12
 R13
@@ -254,19 +256,19 @@ Abehavioral
 R15
 R3
 R4
-Z46 DEx4 work 9 testbench 0 22 `0N;Z76C36:E>InOAg03z2
+Z47 DEx4 work 9 testbench 0 22 `0N;Z76C36:E>InOAg03z2
 !i122 -1
-l146
+l150
 L36
-VioAzon[A0YV1Pn[Lkh;8g2
-!s100 Z:SMbG;2nSoV1WRG5;]];0
+VLX8e1eQbXoK4lzo7ZanM40
+!s100 Kjjl<B3;d:go1?<Adk7ZI1
 R7
 33
-R32
+R26
 !i10b 1
-R33
-R44
+R27
 R45
+R46
 !i113 1
 R12
 R13

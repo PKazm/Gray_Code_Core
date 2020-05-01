@@ -1,0 +1,10 @@
+@P:  Worst Slack : -0.570
+@P:  gray_to_binary_freq_test|CLK - Estimated Frequency : 263.2 MHz
+@P:  gray_to_binary_freq_test|CLK - Requested Frequency : 309.7 MHz
+@P:  gray_to_binary_freq_test|CLK - Estimated Period : 3.799
+@P:  gray_to_binary_freq_test|CLK - Requested Period : 3.229
+@P:  gray_to_binary_freq_test|CLK - Slack : -0.570
+@P: gray_to_binary_freq_test Part : m2s010vf400std
+@P: gray_to_binary_freq_test Register bits  : 70 
+@P: gray_to_binary_freq_test DSP Blocks  : 0
+@P:  CPU Time : 0h:00m:03s

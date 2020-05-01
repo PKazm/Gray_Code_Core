@@ -1,0 +1,486 @@
+# Thu Apr 30 00:12:42 2020
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2737R, Built Jan 20 2020 09:12:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 127MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 127MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 127MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 127MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 156MB peak: 156MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 159MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 160MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 161MB peak: 161MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 162MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 163MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 163MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 163MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -2.01ns		  52 /        64
+   2		0h:00m:02s		    -2.01ns		  52 /        64
+@N: FX271 :"e:\github_repos\gray_code_core\gray_code_core\hdl\gray_to_binary_freq_test.vhd":45:2:45:3|Replicating instance g_buf[31] (in view: work.gray_to_binary_freq_test(architecture_gray_to_binary_freq_test)) with 4 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+   3		0h:00m:02s		    -0.60ns		  64 /        65
+   4		0h:00m:02s		    -0.38ns		  65 /        65
+   5		0h:00m:02s		    -0.10ns		  65 /        65
+@N: FX271 :"e:\github_repos\gray_code_core\gray_code_core\hdl\gray_to_binary_freq_test.vhd":45:2:45:3|Replicating instance g_buf[26] (in view: work.gray_to_binary_freq_test(architecture_gray_to_binary_freq_test)) with 4 loads 1 time to improve timing.
+@N: FX271 :"e:\github_repos\gray_code_core\gray_code_core\hdl\gray_to_binary_freq_test.vhd":45:2:45:3|Replicating instance g_buf[30] (in view: work.gray_to_binary_freq_test(architecture_gray_to_binary_freq_test)) with 4 loads 1 time to improve timing.
+@N: FX271 :"e:\github_repos\gray_code_core\gray_code_core\hdl\gray_to_binary_freq_test.vhd":45:2:45:3|Replicating instance g_buf[27] (in view: work.gray_to_binary_freq_test(architecture_gray_to_binary_freq_test)) with 4 loads 1 time to improve timing.
+@N: FX271 :"e:\github_repos\gray_code_core\gray_code_core\hdl\gray_to_binary_freq_test.vhd":45:2:45:3|Replicating instance g_buf[23] (in view: work.gray_to_binary_freq_test(architecture_gray_to_binary_freq_test)) with 15 loads 2 times to improve timing.
+Timing driven replication report
+Added 5 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+
+   6		0h:00m:02s		    -0.04ns		  64 /        70
+   7		0h:00m:02s		    -0.04ns		  64 /        70
+@N: FP130 |Promoting Net RSTn on CLKINT  I_76 
+@N: FP130 |Promoting Net CLK on CLKINT  I_77 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 165MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 165MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 70 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK                 port                   70         b_buf[0]       
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 165MB)
+
+Writing Analyst data base E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\synwork\gray_to_binary_freq_test_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 164MB peak: 165MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 165MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 164MB peak: 165MB)
+
+@W: MT420 |Found inferred clock gray_to_binary_freq_test|CLK with period 3.23ns. Please declare a user-defined clock on port CLK.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Apr 30 00:12:46 2020
+#
+
+
+Top view:               gray_to_binary_freq_test
+Requested Frequency:    309.7 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\designer\gray_to_binary_freq_test\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.570
+
+                                 Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                   Frequency     Frequency     Period        Period        Slack      Type         Group                
+--------------------------------------------------------------------------------------------------------------------------------------
+gray_to_binary_freq_test|CLK     309.7 MHz     263.2 MHz     3.229         3.799         -0.570     inferred     Autoconstr_clkgroup_0
+======================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------
+gray_to_binary_freq_test|CLK  gray_to_binary_freq_test|CLK  |  3.229       -0.570  |  No paths    -      |  No paths    -      |  No paths    -    
+===================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: gray_to_binary_freq_test|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+              Starting                                                        Arrival           
+Instance      Reference                        Type     Pin     Net           Time        Slack 
+              Clock                                                                             
+------------------------------------------------------------------------------------------------
+g_buf[25]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[25]     0.108       -0.570
+g_buf[11]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[11]     0.108       -0.373
+g_buf[20]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[20]     0.108       -0.313
+g_buf[15]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[15]     0.108       -0.280
+g_buf[13]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[13]     0.108       -0.272
+g_buf[17]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[17]     0.108       -0.220
+g_buf[14]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[14]     0.108       -0.211
+g_buf[22]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[22]     0.108       -0.197
+g_buf[19]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[19]     0.108       -0.187
+g_buf[21]     gray_to_binary_freq_test|CLK     SLE      Q       g_buf[21]     0.108       -0.118
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                                                             Required           
+Instance      Reference                        Type     Pin     Net                                Time         Slack 
+              Clock                                                                                                   
+----------------------------------------------------------------------------------------------------------------------
+b_buf[2]      gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf[2]         2.974        -0.570
+b_buf[7]      gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf_i_i[7]     2.974        -0.570
+b_buf[20]     gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf[20]        2.974        -0.570
+b_buf[0]      gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf[0]         2.974        -0.469
+b_buf[1]      gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf[1]         2.974        -0.469
+b_buf[4]      gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf[4]         2.974        -0.469
+b_buf[11]     gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf[11]        2.974        -0.469
+b_buf[14]     gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf[14]        2.974        -0.469
+b_buf[16]     gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf[16]        2.974        -0.469
+b_buf[19]     gray_to_binary_freq_test|CLK     SLE      D       f_gray_to_binary\.b_buf[19]        2.974        -0.469
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.229
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.974
+
+    - Propagation time:                      3.544
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.570
+
+    Number of logic level(s):                3
+    Starting point:                          g_buf[25] / Q
+    Ending point:                            b_buf[2] / D
+    The start point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+    The end   point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                           Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+g_buf[25]                      SLE      Q        Out     0.108     0.108       -         
+g_buf[25]                      Net      -        -       0.745     -           3         
+g_buf_fast_RNIE7NV[26]         CFG4     D        In      -         0.854       -         
+g_buf_fast_RNIE7NV[26]         CFG4     Y        Out     0.326     1.180       -         
+N_4_i_0_1_0                    Net      -        -       0.248     -           1         
+g_buf_RNI66LE2[28]             CFG4     D        In      -         1.428       -         
+g_buf_RNI66LE2[28]             CFG4     Y        Out     0.326     1.755       -         
+g_buf_RNI66LE2[28]             Net      -        -       1.215     -           24        
+b_buf_RNO[2]                   CFG4     D        In      -         2.969       -         
+b_buf_RNO[2]                   CFG4     Y        Out     0.326     3.296       -         
+f_gray_to_binary\.b_buf[2]     Net      -        -       0.248     -           1         
+b_buf[2]                       SLE      D        In      -         3.544       -         
+=========================================================================================
+Total path delay (propagation time + setup) of 3.799 is 1.343(35.3%) logic and 2.457(64.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      3.229
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.974
+
+    - Propagation time:                      3.544
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.570
+
+    Number of logic level(s):                3
+    Starting point:                          g_buf[25] / Q
+    Ending point:                            b_buf[7] / D
+    The start point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+    The end   point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                               Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+g_buf[25]                          SLE      Q        Out     0.108     0.108       -         
+g_buf[25]                          Net      -        -       0.745     -           3         
+g_buf_fast_RNIE7NV[26]             CFG4     D        In      -         0.854       -         
+g_buf_fast_RNIE7NV[26]             CFG4     Y        Out     0.326     1.180       -         
+N_4_i_0_1_0                        Net      -        -       0.248     -           1         
+g_buf_RNI66LE2[28]                 CFG4     D        In      -         1.428       -         
+g_buf_RNI66LE2[28]                 CFG4     Y        Out     0.326     1.755       -         
+g_buf_RNI66LE2[28]                 Net      -        -       1.215     -           24        
+b_buf_RNO[7]                       CFG4     D        In      -         2.969       -         
+b_buf_RNO[7]                       CFG4     Y        Out     0.326     3.296       -         
+f_gray_to_binary\.b_buf_i_i[7]     Net      -        -       0.248     -           1         
+b_buf[7]                           SLE      D        In      -         3.544       -         
+=============================================================================================
+Total path delay (propagation time + setup) of 3.799 is 1.343(35.3%) logic and 2.457(64.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      3.229
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.974
+
+    - Propagation time:                      3.544
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.570
+
+    Number of logic level(s):                3
+    Starting point:                          g_buf[25] / Q
+    Ending point:                            b_buf[20] / D
+    The start point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+    The end   point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+g_buf[25]                       SLE      Q        Out     0.108     0.108       -         
+g_buf[25]                       Net      -        -       0.745     -           3         
+g_buf_fast_RNIE7NV[26]          CFG4     D        In      -         0.854       -         
+g_buf_fast_RNIE7NV[26]          CFG4     Y        Out     0.326     1.180       -         
+N_4_i_0_1_0                     Net      -        -       0.248     -           1         
+g_buf_RNI66LE2[28]              CFG4     D        In      -         1.428       -         
+g_buf_RNI66LE2[28]              CFG4     Y        Out     0.326     1.755       -         
+g_buf_RNI66LE2[28]              Net      -        -       1.215     -           24        
+b_buf_RNO[20]                   CFG4     D        In      -         2.969       -         
+b_buf_RNO[20]                   CFG4     Y        Out     0.326     3.296       -         
+f_gray_to_binary\.b_buf[20]     Net      -        -       0.248     -           1         
+b_buf[20]                       SLE      D        In      -         3.544       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 3.799 is 1.343(35.3%) logic and 2.457(64.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      3.229
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.974
+
+    - Propagation time:                      3.443
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.469
+
+    Number of logic level(s):                3
+    Starting point:                          g_buf[25] / Q
+    Ending point:                            b_buf[16] / D
+    The start point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+    The end   point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+g_buf[25]                            SLE      Q        Out     0.108     0.108       -         
+g_buf[25]                            Net      -        -       0.745     -           3         
+g_buf_fast_RNIE7NV[26]               CFG4     D        In      -         0.854       -         
+g_buf_fast_RNIE7NV[26]               CFG4     Y        Out     0.326     1.180       -         
+N_4_i_0_1_0                          Net      -        -       0.248     -           1         
+g_buf_RNI66LE2[28]                   CFG4     D        In      -         1.428       -         
+g_buf_RNI66LE2[28]                   CFG4     Y        Out     0.326     1.755       -         
+g_buf_RNI66LE2[28]                   Net      -        -       1.215     -           24        
+f_gray_to_binary\.b_buf_0_a2[16]     CFG3     C        In      -         2.969       -         
+f_gray_to_binary\.b_buf_0_a2[16]     CFG3     Y        Out     0.226     3.195       -         
+f_gray_to_binary\.b_buf[16]          Net      -        -       0.248     -           1         
+b_buf[16]                            SLE      D        In      -         3.443       -         
+===============================================================================================
+Total path delay (propagation time + setup) of 3.699 is 1.242(33.6%) logic and 2.457(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      3.229
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.974
+
+    - Propagation time:                      3.443
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.469
+
+    Number of logic level(s):                3
+    Starting point:                          g_buf[25] / Q
+    Ending point:                            b_buf[14] / D
+    The start point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+    The end   point is clocked by            gray_to_binary_freq_test|CLK [rising] on pin CLK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+g_buf[25]                            SLE      Q        Out     0.108     0.108       -         
+g_buf[25]                            Net      -        -       0.745     -           3         
+g_buf_fast_RNIE7NV[26]               CFG4     D        In      -         0.854       -         
+g_buf_fast_RNIE7NV[26]               CFG4     Y        Out     0.326     1.180       -         
+N_4_i_0_1_0                          Net      -        -       0.248     -           1         
+g_buf_RNI66LE2[28]                   CFG4     D        In      -         1.428       -         
+g_buf_RNI66LE2[28]                   CFG4     Y        Out     0.326     1.755       -         
+g_buf_RNI66LE2[28]                   Net      -        -       1.215     -           24        
+f_gray_to_binary\.b_buf_0_a2[14]     CFG3     C        In      -         2.969       -         
+f_gray_to_binary\.b_buf_0_a2[14]     CFG3     Y        Out     0.226     3.195       -         
+f_gray_to_binary\.b_buf[14]          Net      -        -       0.248     -           1         
+b_buf[14]                            SLE      D        In      -         3.443       -         
+===============================================================================================
+Total path delay (propagation time + setup) of 3.699 is 1.242(33.6%) logic and 2.457(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 165MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 166MB)
+
+---------------------------------------
+Resource Usage Report for gray_to_binary_freq_test 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          2 uses
+CFG2           14 uses
+CFG3           11 uses
+CFG4           38 uses
+
+
+Sequential Cells: 
+SLE            70 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+Global Clock Buffers: 2
+
+Total LUTs:    63
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  70 + 0 + 0 + 0 = 70;
+Total number of LUTs after P&R:  63 + 0 + 0 + 0 = 63;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 58MB peak: 166MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Thu Apr 30 00:12:47 2020
+
+###########################################################]

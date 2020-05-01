@@ -76,6 +76,8 @@ architecture behavioral of testbench is
             CLK : in std_logic;
             RSTn : in std_logic;
             incr_cntr : in std_logic;
+			max_cnt_bin : in std_logic_vector(g_n_bits - 1 downto 0);
+			cnt_clr : in std_logic;
 
             -- Outputs
             gray_out : out std_logic_vector(g_n_bits - 1 downto 0)
@@ -86,6 +88,8 @@ architecture behavioral of testbench is
     end component;
 
     signal incr_cntr : std_logic;
+	signal max_cnt_bin : std_logic_vector(N_BITS - 1 downto 0);
+	signal cnt_clr : std_logic;
     signal gray_out_cnt : std_logic_vector(N_BITS - 1 downto 0);
 
 
@@ -173,6 +177,8 @@ begin
             CLK => SYSCLK,
             RSTn => NSYSRESET,
             incr_cntr => incr_cntr,
+			max_cnt_bin => max_cnt_bin,
+			cnt_clr => cnt_clr,
 
             -- Outputs
             gray_out => gray_out_cnt
@@ -239,6 +245,9 @@ begin
         error_yes := FALSE;
 
         incr_cntr <= '0';
+		max_cnt_bin <= (others => '1');
+		cnt_clr <= '0';
+		
         gray_a <= (others => '0');
         gray_b <= (others => '0');
         bin_in_btg <= (others => '0');
@@ -300,12 +309,41 @@ begin
 
         report "TEST GRAY COUNTER STARTED";
 
-        for i in 0 to 2**N_BITS - 1 loop
+        for i in 0 to 2**N_BITS + 5 loop
 
-            temp_n := i mod 2**N_BITS;
+            temp_n := i mod (2**N_BITS);
 
             assert (gray_out_cnt = gray_table(temp_n))
-                report "Gray Count error at: " & integer'image(i) & "; expected: " & to_string(gray_out_cnt) & " got: " & to_string(gray_table(temp_n))
+                report "Gray Count error at: " & integer'image(i) & "; expected: " & to_string(gray_table(temp_n)) & " got: " & to_string(gray_out_cnt)
+                severity error;
+
+            incr_cntr <= '1';
+
+            wait for (SYSCLK_PERIOD * 1);
+
+            incr_cntr <= '0';
+
+            wait for (SYSCLK_PERIOD * 1);
+
+        end loop;
+		
+		report "TEST GRAY COUNTER CLEAR";
+		
+		cnt_clr <= '1';
+		max_cnt_bin <= (max_cnt_bin'high downto max_cnt_bin'high - 1 => '0', others => '1');
+		wait for (SYSCLK_PERIOD * 1);
+		
+		cnt_clr <= '0';
+		wait for (SYSCLK_PERIOD * 1);
+		
+		report "TEST GRAY COUNTER REDUCED BITS";
+		
+		for i in 0 to 2**N_BITS - 1 loop
+
+            temp_n := i mod (2**(N_BITS - 2));
+
+            assert (gray_out_cnt = gray_table(temp_n))
+                report "Gray Count error at: " & integer'image(i) & "; expected: " & to_string(gray_table(temp_n)) & " got: " & to_string(gray_out_cnt)
                 severity error;
 
             incr_cntr <= '1';

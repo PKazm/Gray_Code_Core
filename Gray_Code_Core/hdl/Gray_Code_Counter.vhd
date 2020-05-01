@@ -20,6 +20,7 @@ library IEEE;
 
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
+use IEEE.math_real.all;
 
 use work.Gray_Code_package.all;
 
@@ -30,6 +31,9 @@ generic (
 port (
     CLK : in std_logic;
     RSTn : in std_logic;
+
+    max_cnt_bin : in std_logic_vector(g_n_bits - 1 downto 0);
+    cnt_clr : in std_logic;
 
     incr_cntr : in std_logic;
     gray_out : out std_logic_vector(g_n_bits - 1 downto 0)
@@ -49,8 +53,16 @@ begin
             incr_sig <= '0';
         elsif(rising_edge(CLK)) then
             incr_sig <= incr_cntr;
-            if(incr_sig = '0' and incr_cntr = '1') then
-                bin_cntr <= bin_cntr + 1;
+            if(cnt_clr = '1') then
+                bin_cntr <= (others => '0');
+            else
+                if(incr_sig = '0' and incr_cntr = '1') then
+                    if(bin_cntr = unsigned(max_cnt_bin)) then
+                        bin_cntr <= (others => '0');
+                    else
+                        bin_cntr <= bin_cntr + 1;
+                    end if;
+                end if;
             end if;
         end if;
     end process;

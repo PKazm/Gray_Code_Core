@@ -1,0 +1,154 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v12.4 (Version 12.900.0.16)
+Date: Thu Apr 30 00:12:51 2020
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 144 TQ         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+-------------------------------------------------------------------------------------+
+| Topcell | gray_to_binary_freq_test                                                            |
+| Format  | Verilog                                                                             |
+| Source  | E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\gray_to_binary_freq_test.vm |
++---------+-------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 129  | 12084 | 1.07       |
+| DFF                       | 70   | 12084 | 0.58       |
+| I/O Register              | 0    | 252   | 0.00       |
+| User I/O                  | 0    | 84    | 0.00       |
+| -- Single-ended I/O       | 0    | 84    | 0.00       |
+| -- Differential I/O Pairs | 0    | 37    | 0.00       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 0    | 21    | 0.00       |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Globals              | 2    | 8     | 25.00      |
+| CCC                       | 0    | 2     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 129  | 70  |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 129  | 70  |
++--------------------------+------+-----+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 0            | 0           | 0               |
+| Output I/O                    | 0            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+------+------+-------+--------+---------------+
+| I/O Standard | Vddi | Vref | Input | Output | Bidirectional |
++--------------+------+------+-------+--------+---------------+
++--------------+------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+------------------------------+
+| Fanout | Type    | Name                         |
++--------+---------+------------------------------+
+| 70     | INT_NET | Net   : NN_1                 |
+|        |         | Driver: CLK_RNIQO92/U0_RGB1  |
+|        |         | Source: NETLIST              |
+| 70     | INT_NET | Net   : RSTn_RNI7ROC_Z       |
+|        |         | Driver: RSTn_RNI7ROC/U0_RGB1 |
+|        |         | Source: NETLIST              |
++--------+---------+------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------------------+
+| Fanout | Type    | Name                                        |
++--------+---------+---------------------------------------------+
+| 24     | INT_NET | Net   : g_buf_RNI66LE2_Z[28]                |
+|        |         | Driver: g_buf_RNI66LE2[28]                  |
+| 10     | INT_NET | Net   : f_gray_to_binary.b_buf_0_a2_1[9]    |
+|        |         | Driver: f_gray_to_binary.b_buf_0_a2_0_0[18] |
+| 9      | INT_NET | Net   : g_buf_Z[23]                         |
+|        |         | Driver: g_buf[23]                           |
+| 9      | INT_NET | Net   : f_gray_to_binary.b_buf_0_a2_8_m6_7  |
+|        |         | Driver: g_buf_RNI6AFM5[8]                   |
+| 8      | INT_NET | Net   : g_buf_Z[7]                          |
+|        |         | Driver: g_buf[7]                            |
+| 6      | INT_NET | Net   : g_buf_Z[22]                         |
+|        |         | Driver: g_buf[22]                           |
+| 6      | INT_NET | Net   : g_buf_Z[6]                          |
+|        |         | Driver: g_buf[6]                            |
+| 5      | INT_NET | Net   : g_buf_Z[29]                         |
+|        |         | Driver: g_buf[29]                           |
+| 5      | INT_NET | Net   : g_buf_Z[28]                         |
+|        |         | Driver: g_buf[28]                           |
+| 5      | INT_NET | Net   : g_buf_Z[17]                         |
+|        |         | Driver: g_buf[17]                           |
++--------+---------+---------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------+
+| Fanout | Type    | Name                                        |
++--------+---------+---------------------------------------------+
+| 24     | INT_NET | Net   : g_buf_RNI66LE2_Z[28]                |
+|        |         | Driver: g_buf_RNI66LE2[28]                  |
+| 10     | INT_NET | Net   : f_gray_to_binary.b_buf_0_a2_1[9]    |
+|        |         | Driver: f_gray_to_binary.b_buf_0_a2_0_0[18] |
+| 9      | INT_NET | Net   : g_buf_Z[23]                         |
+|        |         | Driver: g_buf[23]                           |
+| 9      | INT_NET | Net   : f_gray_to_binary.b_buf_0_a2_8_m6_7  |
+|        |         | Driver: g_buf_RNI6AFM5[8]                   |
+| 8      | INT_NET | Net   : g_buf_Z[7]                          |
+|        |         | Driver: g_buf[7]                            |
+| 6      | INT_NET | Net   : g_buf_Z[22]                         |
+|        |         | Driver: g_buf[22]                           |
+| 6      | INT_NET | Net   : g_buf_Z[6]                          |
+|        |         | Driver: g_buf[6]                            |
+| 5      | INT_NET | Net   : g_buf_Z[29]                         |
+|        |         | Driver: g_buf[29]                           |
+| 5      | INT_NET | Net   : g_buf_Z[28]                         |
+|        |         | Driver: g_buf[28]                           |
+| 5      | INT_NET | Net   : g_buf_Z[17]                         |
+|        |         | Driver: g_buf[17]                           |
++--------+---------+---------------------------------------------+
+

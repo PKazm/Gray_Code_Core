@@ -1,3 +1,4 @@
+# Reading C:/Microsemi/Libero_SoC_v12.4/ModelSim/tcl/vsim/pref.tcl
 # do run.do
 # INFO: Simulation library presynth already exists
 # Model Technology ModelSim Microsemi vmap 2019.4 Lib Mapping Utility 2019.10 Oct 16 2019
@@ -7,40 +8,42 @@
 # vmap SmartFusion2 C:/Microsemi/Libero_SoC_v12.4/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
 # Modifying modelsim.ini
 # Model Technology ModelSim Microsemi vcom 2019.4 Compiler 2019.10 Oct 16 2019
-# Start time: 22:31:14 on Apr 29,2020
-# vcom -2008 -explicit -work presynth E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd 
+# Start time: 15:56:04 on May 01,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_package.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package Gray_Code_package
 # -- Compiling package body Gray_Code_package
 # -- Loading package Gray_Code_package
-# End time: 22:31:14 on Apr 29,2020, Elapsed time: 0:00:00
+# End time: 15:56:04 on May 01,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi vcom 2019.4 Compiler 2019.10 Oct 16 2019
-# Start time: 22:31:14 on Apr 29,2020
-# vcom -2008 -explicit -work presynth E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_To_Binary.vhd 
+# Start time: 15:56:04 on May 01,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/hdl/Gray_Code_Counter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
 # -- Loading package Gray_Code_package
-# -- Compiling entity Gray_to_Binary
-# -- Compiling architecture architecture_Gray_to_Binary of Gray_to_Binary
-# End time: 22:31:14 on Apr 29,2020, Elapsed time: 0:00:00
+# -- Compiling entity Gray_Code_Counter
+# -- Compiling architecture architecture_Gray_Code_Counter of Gray_Code_Counter
+# End time: 15:56:04 on May 01,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi vcom 2019.4 Compiler 2019.10 Oct 16 2019
-# Start time: 22:31:14 on Apr 29,2020
-# vcom -2008 -explicit -work presynth E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd 
+# Start time: 15:56:04 on May 01,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth E:/Github_Repos/Gray_Code_Core/Gray_Code_Core/stimulus/Gray_Code_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity testbench
 # -- Compiling architecture behavioral of testbench
-# End time: 22:31:14 on Apr 29,2020, Elapsed time: 0:00:00
+# End time: 15:56:04 on May 01,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -L SmartFusion2 -L presynth -t 10ps presynth.testbench 
-# Start time: 22:31:14 on Apr 29,2020
+# Start time: 15:56:04 on May 01,2020
 # //  ModelSim Microsemi 2019.4 Oct 16 2019
 # //
 # //  Copyright 1991-2019 Mentor Graphics Corporation
@@ -59,6 +62,7 @@
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading presynth.testbench(behavioral)
+# Loading ieee.math_real(body)
 # Loading presynth.gray_code_package(body)
 # Loading presynth.gray_code_counter(architecture_gray_code_counter)
 # Loading presynth.gray_code_adder(architecture_gray_code_adder)
@@ -74,11 +78,15 @@
 #    Time: 420 ns  Iteration: 0  Instance: /testbench
 # ** Note: TEST GRAY COUNTER STARTED
 #    Time: 420 ns  Iteration: 0  Instance: /testbench
+# ** Note: TEST GRAY COUNTER CLEAR
+#    Time: 860 ns  Iteration: 0  Instance: /testbench
+# ** Note: TEST GRAY COUNTER REDUCED BITS
+#    Time: 880 ns  Iteration: 0  Instance: /testbench
 # ** Note: TEST GRAY COUNTER COMPLETE
-#    Time: 740 ns  Iteration: 0  Instance: /testbench
+#    Time: 1200 ns  Iteration: 0  Instance: /testbench
 # ** Note: TEST GRAY ADDER STARTED
-#    Time: 740 ns  Iteration: 0  Instance: /testbench
+#    Time: 1200 ns  Iteration: 0  Instance: /testbench
 # ** Note: TEST GRAY ADDER COMPLETE
-#    Time: 5860 ns  Iteration: 0  Instance: /testbench
-# End time: 22:31:15 on Apr 29,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
+#    Time: 6320 ns  Iteration: 0  Instance: /testbench
+# End time: 15:56:45 on May 01,2020, Elapsed time: 0:00:41
+# Errors: 6, Warnings: 0
