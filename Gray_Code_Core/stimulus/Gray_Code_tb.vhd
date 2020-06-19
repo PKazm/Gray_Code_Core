@@ -321,14 +321,10 @@ begin
 
             wait for (SYSCLK_PERIOD * 1);
 
-            incr_cntr <= '0';
-
-            wait for (SYSCLK_PERIOD * 1);
-
         end loop;
 		
 		report "TEST GRAY COUNTER CLEAR";
-		
+		incr_cntr <= '0';
 		cnt_clr <= '1';
 		max_cnt_bin <= (max_cnt_bin'high downto max_cnt_bin'high - 1 => '0', others => '1');
 		wait for (SYSCLK_PERIOD * 1);

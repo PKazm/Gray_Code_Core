@@ -1,7 +1,0 @@
-@N: MF916 |Option synthesis_strategy=base is enabled. 
-@N: MF248 |Running in 64-bit mode.
-@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: BN362 :"e:\github_repos\gray_code_core\gray_code_core\component\work\corefifo_c0\corefifo_c0_0\rtl\vhdl\core\corefifo_async.vhd":918:6:918:7|Removing sequential instance afull_r (in view: corefifo_lib.COREFIFO_C0_COREFIFO_C0_0_corefifo_async(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist COREFIFO_C0 
-@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
-@N: BN225 |Writing default property annotation file E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\COREFIFO_C0.sap.

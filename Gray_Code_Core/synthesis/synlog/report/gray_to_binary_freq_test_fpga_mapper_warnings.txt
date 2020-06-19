@@ -1,1 +1,0 @@
-@W: MT420 |Found inferred clock gray_to_binary_freq_test|CLK with period 3.23ns. Please declare a user-defined clock on port CLK.

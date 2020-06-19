@@ -1,2 +1,0 @@
-CKID0001:@|S:RCLOCK@|E:COREFIFO_C0_0.re_pulse_d1@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:WCLOCK@|E:COREFIFO_C0_0.L31\.U_corefifo_async.wptr[11]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

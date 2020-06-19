@@ -41,7 +41,6 @@ port (
 end Gray_Code_Counter;
 architecture architecture_Gray_Code_Counter of Gray_Code_Counter is
 
-    signal incr_sig : std_logic;
     signal bin_cntr : unsigned(g_n_bits - 1 downto 0);
 
 begin
@@ -50,13 +49,11 @@ begin
     begin
         if(RSTn = '0') then
             bin_cntr <= (others => '0');
-            incr_sig <= '0';
         elsif(rising_edge(CLK)) then
-            incr_sig <= incr_cntr;
             if(cnt_clr = '1') then
                 bin_cntr <= (others => '0');
             else
-                if(incr_sig = '0' and incr_cntr = '1') then
+                if(incr_cntr = '1') then
                     if(bin_cntr = unsigned(max_cnt_bin)) then
                         bin_cntr <= (others => '0');
                     else

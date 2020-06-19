@@ -1,7 +1,0 @@
-C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.gray_to_binary_freq_test  -multisrs  E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\synwork\gray_to_binary_freq_test_comp.srs  -osyn  E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\synwork\gray_to_binary_freq_test_mult.srs  -log  E:\Github_Repos\Gray_Code_Core\Gray_Code_Core\synthesis\synlog\gray_to_binary_freq_test_multi_srs_gen.srr 
-relcom:C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe -link -top work.gray_to_binary_freq_test -multisrs ..\synwork\gray_to_binary_freq_test_comp.srs -osyn ..\synwork\gray_to_binary_freq_test_mult.srs -log ..\synlog\gray_to_binary_freq_test_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\gray_to_binary_freq_test_comp.srs|io:i|time:1588219942|size:2730|exec:0|csum:29506DE262AA4DA62602E76771888D82
-file:..\synwork\gray_to_binary_freq_test_mult.srs|io:o|time:1588219943|size:2368|exec:0|csum:
-file:..\synlog\gray_to_binary_freq_test_multi_srs_gen.srr|io:o|time:1588219943|size:1179|exec:0|csum:
-file:C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1582898378|size:8841216|exec:1|csum:0CC7C05A48C9642EAD04A8A03F593C86
